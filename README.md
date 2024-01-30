@@ -36,8 +36,8 @@ A custom loss function, `mse_with_positive_pressure`, is defined to incorporate 
 The LSTM model is designed with three output layers corresponding to pitch, step, and duration predictions.
 
 ## Model Training
-The model is trained with a combination of sparse categorical cross-entropy and mean squared error loss functions. 
-<b>Note: <b> I have interrupted the training at ```epoch 21/50``` to see how it would affect the generator. This also resulted in a ```
+The model is trained with a combination of sparse categorical cross-entropy and mean squared error loss functions. <br>
+<b>Note: </b> <i>I have interrupted the training at ```epoch 21/50``` to see how it would affect the generator. This also resulted in a ```Keyboard Interrupt``` error. This can be avoided by letting the training complete to 50 epochs.</i>. 
 
 # Training Results
 
